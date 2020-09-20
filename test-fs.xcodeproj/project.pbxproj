@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A7521DC22517648D00404156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7521DC12517648D00404156 /* main.swift */; };
+		A7521DC9251764FA00404156 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7521DC8251764FA00404156 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A7521DBE2517648D00404156 /* test-fs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-fs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7521DC12517648D00404156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A7521DC8251764FA00404156 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		A7521DC02517648D00404156 /* test-fs */ = {
 			isa = PBXGroup;
 			children = (
+				A7521DC8251764FA00404156 /* Car.swift */,
 				A7521DC12517648D00404156 /* main.swift */,
 			);
 			path = "test-fs";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7521DC9251764FA00404156 /* Car.swift in Sources */,
 				A7521DC22517648D00404156 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
